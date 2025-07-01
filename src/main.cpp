@@ -8,12 +8,13 @@
 
 using namespace Pistache;
 
-int main() {
+int main()
+{
     // Verifica la conexión con PostgreSQL
     testConexionPostgreSQL();
 
     // Configura el servidor HTTP
-    Address addr(Ipv4::any(), Port(5000));
+    Address addr(Ipv4::any(), Port(5555));
     Http::Endpoint server(addr);
 
     Rest::Router router;
@@ -23,8 +24,8 @@ int main() {
     server.init();
     server.setHandler(router.handler());
 
-    std::cout << "Servidor Pistache corriendo en http://localhost:5000\n";
+    std::cout << "Servidor Pistache corriendo en http://localhost:5555\n";
     server.serve();
-    
+
     return 0;
 }

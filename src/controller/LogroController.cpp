@@ -1,16 +1,17 @@
 #include "LogroController.h"
-
+#include <nlohmann/json.hpp>
 #include <pistache/router.h>
 #include <pistache/http.h>
 #include <pistache/endpoint.h>
-#include <nlohmann/json.hpp>  
 
 using namespace Pistache;
 using namespace Pistache::Rest;
 using json = nlohmann::json;
 
-void LogroController::setupRoutes(Rest::Router& router) {
-    Rest::Routes::Get(router, "/api/logros/test", [](const Rest::Request& req, Http::ResponseWriter response) -> Rest::Route::Result {
+void LogroController::setupRoutes(Rest::Router &router)
+{
+    Rest::Routes::Get(router, "/api/logros/test", [](const Rest::Request &req, Http::ResponseWriter response) -> Rest::Route::Result
+                      {
         json logro = {
             {"id", 1},
             {"nombre", "Primer logro"},
@@ -19,6 +20,5 @@ void LogroController::setupRoutes(Rest::Router& router) {
         };
 
         response.send(Http::Code::Ok, logro.dump(), MIME(Application, Json));
-        return Rest::Route::Result::Ok;
-    });
+        return Rest::Route::Result::Ok; });
 }
