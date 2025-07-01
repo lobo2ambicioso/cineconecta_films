@@ -1,0 +1,3 @@
+/home/karolv/CineConecta/ServiceCPP/build/CMakeFiles/ServiceCPP_Executable.dir
+/home/karolv/CineConecta/ServiceCPP/build/CMakeFiles/edit_cache.dir
+/home/karolv/CineConecta/ServiceCPP/build/CMakeFiles/rebuild_cache.dir

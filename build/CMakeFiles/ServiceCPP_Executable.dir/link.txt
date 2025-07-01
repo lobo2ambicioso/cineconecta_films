@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/ServiceCPP_Executable.dir/src/main.cpp.o CMakeFiles/ServiceCPP_Executable.dir/src/db.cpp.o CMakeFiles/ServiceCPP_Executable.dir/src/controller/LogroController.cpp.o -o ServiceCPP_Executable  -lpistache -lpqxx -lpq -lpthread 
