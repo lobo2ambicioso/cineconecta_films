@@ -8,9 +8,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/karolv/CineConecta/ServiceCPP/src/controller/LogroController.cpp" "CMakeFiles/ServiceCPP_Executable.dir/src/controller/LogroController.cpp.o" "gcc" "CMakeFiles/ServiceCPP_Executable.dir/src/controller/LogroController.cpp.o.d"
-  "/home/karolv/CineConecta/ServiceCPP/src/db.cpp" "CMakeFiles/ServiceCPP_Executable.dir/src/db.cpp.o" "gcc" "CMakeFiles/ServiceCPP_Executable.dir/src/db.cpp.o.d"
-  "/home/karolv/CineConecta/ServiceCPP/src/main.cpp" "CMakeFiles/ServiceCPP_Executable.dir/src/main.cpp.o" "gcc" "CMakeFiles/ServiceCPP_Executable.dir/src/main.cpp.o.d"
+  "/home/diego/cineconecta_films/cineconecta_films/src/controller/LogroController.cpp" "CMakeFiles/ServiceCPP_Executable.dir/src/controller/LogroController.cpp.o" "gcc" "CMakeFiles/ServiceCPP_Executable.dir/src/controller/LogroController.cpp.o.d"
+  "/home/diego/cineconecta_films/cineconecta_films/src/controller/MovieApiController.cpp" "CMakeFiles/ServiceCPP_Executable.dir/src/controller/MovieApiController.cpp.o" "gcc" "CMakeFiles/ServiceCPP_Executable.dir/src/controller/MovieApiController.cpp.o.d"
+  "/home/diego/cineconecta_films/cineconecta_films/src/db.cpp" "CMakeFiles/ServiceCPP_Executable.dir/src/db.cpp.o" "gcc" "CMakeFiles/ServiceCPP_Executable.dir/src/db.cpp.o.d"
+  "/home/diego/cineconecta_films/cineconecta_films/src/main.cpp" "CMakeFiles/ServiceCPP_Executable.dir/src/main.cpp.o" "gcc" "CMakeFiles/ServiceCPP_Executable.dir/src/main.cpp.o.d"
+  "/home/diego/cineconecta_films/cineconecta_films/src/service/TmdbApiClient.cpp" "CMakeFiles/ServiceCPP_Executable.dir/src/service/TmdbApiClient.cpp.o" "gcc" "CMakeFiles/ServiceCPP_Executable.dir/src/service/TmdbApiClient.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

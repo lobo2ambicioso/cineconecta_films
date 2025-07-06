@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/karolv/CineConecta/ServiceCPP
+CMAKE_SOURCE_DIR = /home/diego/cineconecta_films/cineconecta_films
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/karolv/CineConecta/ServiceCPP/build
+CMAKE_BINARY_DIR = /home/diego/cineconecta_films/cineconecta_films/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ServiceCPP_Executable.dir/depend.make
@@ -70,52 +70,82 @@ include CMakeFiles/ServiceCPP_Executable.dir/progress.make
 include CMakeFiles/ServiceCPP_Executable.dir/flags.make
 
 CMakeFiles/ServiceCPP_Executable.dir/src/main.cpp.o: CMakeFiles/ServiceCPP_Executable.dir/flags.make
-CMakeFiles/ServiceCPP_Executable.dir/src/main.cpp.o: /home/karolv/CineConecta/ServiceCPP/src/main.cpp
+CMakeFiles/ServiceCPP_Executable.dir/src/main.cpp.o: /home/diego/cineconecta_films/cineconecta_films/src/main.cpp
 CMakeFiles/ServiceCPP_Executable.dir/src/main.cpp.o: CMakeFiles/ServiceCPP_Executable.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karolv/CineConecta/ServiceCPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ServiceCPP_Executable.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ServiceCPP_Executable.dir/src/main.cpp.o -MF CMakeFiles/ServiceCPP_Executable.dir/src/main.cpp.o.d -o CMakeFiles/ServiceCPP_Executable.dir/src/main.cpp.o -c /home/karolv/CineConecta/ServiceCPP/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/diego/cineconecta_films/cineconecta_films/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ServiceCPP_Executable.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ServiceCPP_Executable.dir/src/main.cpp.o -MF CMakeFiles/ServiceCPP_Executable.dir/src/main.cpp.o.d -o CMakeFiles/ServiceCPP_Executable.dir/src/main.cpp.o -c /home/diego/cineconecta_films/cineconecta_films/src/main.cpp
 
 CMakeFiles/ServiceCPP_Executable.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ServiceCPP_Executable.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karolv/CineConecta/ServiceCPP/src/main.cpp > CMakeFiles/ServiceCPP_Executable.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/diego/cineconecta_films/cineconecta_films/src/main.cpp > CMakeFiles/ServiceCPP_Executable.dir/src/main.cpp.i
 
 CMakeFiles/ServiceCPP_Executable.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ServiceCPP_Executable.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karolv/CineConecta/ServiceCPP/src/main.cpp -o CMakeFiles/ServiceCPP_Executable.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/diego/cineconecta_films/cineconecta_films/src/main.cpp -o CMakeFiles/ServiceCPP_Executable.dir/src/main.cpp.s
 
 CMakeFiles/ServiceCPP_Executable.dir/src/db.cpp.o: CMakeFiles/ServiceCPP_Executable.dir/flags.make
-CMakeFiles/ServiceCPP_Executable.dir/src/db.cpp.o: /home/karolv/CineConecta/ServiceCPP/src/db.cpp
+CMakeFiles/ServiceCPP_Executable.dir/src/db.cpp.o: /home/diego/cineconecta_films/cineconecta_films/src/db.cpp
 CMakeFiles/ServiceCPP_Executable.dir/src/db.cpp.o: CMakeFiles/ServiceCPP_Executable.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karolv/CineConecta/ServiceCPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ServiceCPP_Executable.dir/src/db.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ServiceCPP_Executable.dir/src/db.cpp.o -MF CMakeFiles/ServiceCPP_Executable.dir/src/db.cpp.o.d -o CMakeFiles/ServiceCPP_Executable.dir/src/db.cpp.o -c /home/karolv/CineConecta/ServiceCPP/src/db.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/diego/cineconecta_films/cineconecta_films/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ServiceCPP_Executable.dir/src/db.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ServiceCPP_Executable.dir/src/db.cpp.o -MF CMakeFiles/ServiceCPP_Executable.dir/src/db.cpp.o.d -o CMakeFiles/ServiceCPP_Executable.dir/src/db.cpp.o -c /home/diego/cineconecta_films/cineconecta_films/src/db.cpp
 
 CMakeFiles/ServiceCPP_Executable.dir/src/db.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ServiceCPP_Executable.dir/src/db.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karolv/CineConecta/ServiceCPP/src/db.cpp > CMakeFiles/ServiceCPP_Executable.dir/src/db.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/diego/cineconecta_films/cineconecta_films/src/db.cpp > CMakeFiles/ServiceCPP_Executable.dir/src/db.cpp.i
 
 CMakeFiles/ServiceCPP_Executable.dir/src/db.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ServiceCPP_Executable.dir/src/db.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karolv/CineConecta/ServiceCPP/src/db.cpp -o CMakeFiles/ServiceCPP_Executable.dir/src/db.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/diego/cineconecta_films/cineconecta_films/src/db.cpp -o CMakeFiles/ServiceCPP_Executable.dir/src/db.cpp.s
 
 CMakeFiles/ServiceCPP_Executable.dir/src/controller/LogroController.cpp.o: CMakeFiles/ServiceCPP_Executable.dir/flags.make
-CMakeFiles/ServiceCPP_Executable.dir/src/controller/LogroController.cpp.o: /home/karolv/CineConecta/ServiceCPP/src/controller/LogroController.cpp
+CMakeFiles/ServiceCPP_Executable.dir/src/controller/LogroController.cpp.o: /home/diego/cineconecta_films/cineconecta_films/src/controller/LogroController.cpp
 CMakeFiles/ServiceCPP_Executable.dir/src/controller/LogroController.cpp.o: CMakeFiles/ServiceCPP_Executable.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karolv/CineConecta/ServiceCPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ServiceCPP_Executable.dir/src/controller/LogroController.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ServiceCPP_Executable.dir/src/controller/LogroController.cpp.o -MF CMakeFiles/ServiceCPP_Executable.dir/src/controller/LogroController.cpp.o.d -o CMakeFiles/ServiceCPP_Executable.dir/src/controller/LogroController.cpp.o -c /home/karolv/CineConecta/ServiceCPP/src/controller/LogroController.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/diego/cineconecta_films/cineconecta_films/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ServiceCPP_Executable.dir/src/controller/LogroController.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ServiceCPP_Executable.dir/src/controller/LogroController.cpp.o -MF CMakeFiles/ServiceCPP_Executable.dir/src/controller/LogroController.cpp.o.d -o CMakeFiles/ServiceCPP_Executable.dir/src/controller/LogroController.cpp.o -c /home/diego/cineconecta_films/cineconecta_films/src/controller/LogroController.cpp
 
 CMakeFiles/ServiceCPP_Executable.dir/src/controller/LogroController.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ServiceCPP_Executable.dir/src/controller/LogroController.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karolv/CineConecta/ServiceCPP/src/controller/LogroController.cpp > CMakeFiles/ServiceCPP_Executable.dir/src/controller/LogroController.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/diego/cineconecta_films/cineconecta_films/src/controller/LogroController.cpp > CMakeFiles/ServiceCPP_Executable.dir/src/controller/LogroController.cpp.i
 
 CMakeFiles/ServiceCPP_Executable.dir/src/controller/LogroController.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ServiceCPP_Executable.dir/src/controller/LogroController.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karolv/CineConecta/ServiceCPP/src/controller/LogroController.cpp -o CMakeFiles/ServiceCPP_Executable.dir/src/controller/LogroController.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/diego/cineconecta_films/cineconecta_films/src/controller/LogroController.cpp -o CMakeFiles/ServiceCPP_Executable.dir/src/controller/LogroController.cpp.s
+
+CMakeFiles/ServiceCPP_Executable.dir/src/service/TmdbApiClient.cpp.o: CMakeFiles/ServiceCPP_Executable.dir/flags.make
+CMakeFiles/ServiceCPP_Executable.dir/src/service/TmdbApiClient.cpp.o: /home/diego/cineconecta_films/cineconecta_films/src/service/TmdbApiClient.cpp
+CMakeFiles/ServiceCPP_Executable.dir/src/service/TmdbApiClient.cpp.o: CMakeFiles/ServiceCPP_Executable.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/diego/cineconecta_films/cineconecta_films/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ServiceCPP_Executable.dir/src/service/TmdbApiClient.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ServiceCPP_Executable.dir/src/service/TmdbApiClient.cpp.o -MF CMakeFiles/ServiceCPP_Executable.dir/src/service/TmdbApiClient.cpp.o.d -o CMakeFiles/ServiceCPP_Executable.dir/src/service/TmdbApiClient.cpp.o -c /home/diego/cineconecta_films/cineconecta_films/src/service/TmdbApiClient.cpp
+
+CMakeFiles/ServiceCPP_Executable.dir/src/service/TmdbApiClient.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ServiceCPP_Executable.dir/src/service/TmdbApiClient.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/diego/cineconecta_films/cineconecta_films/src/service/TmdbApiClient.cpp > CMakeFiles/ServiceCPP_Executable.dir/src/service/TmdbApiClient.cpp.i
+
+CMakeFiles/ServiceCPP_Executable.dir/src/service/TmdbApiClient.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ServiceCPP_Executable.dir/src/service/TmdbApiClient.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/diego/cineconecta_films/cineconecta_films/src/service/TmdbApiClient.cpp -o CMakeFiles/ServiceCPP_Executable.dir/src/service/TmdbApiClient.cpp.s
+
+CMakeFiles/ServiceCPP_Executable.dir/src/controller/MovieApiController.cpp.o: CMakeFiles/ServiceCPP_Executable.dir/flags.make
+CMakeFiles/ServiceCPP_Executable.dir/src/controller/MovieApiController.cpp.o: /home/diego/cineconecta_films/cineconecta_films/src/controller/MovieApiController.cpp
+CMakeFiles/ServiceCPP_Executable.dir/src/controller/MovieApiController.cpp.o: CMakeFiles/ServiceCPP_Executable.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/diego/cineconecta_films/cineconecta_films/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ServiceCPP_Executable.dir/src/controller/MovieApiController.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ServiceCPP_Executable.dir/src/controller/MovieApiController.cpp.o -MF CMakeFiles/ServiceCPP_Executable.dir/src/controller/MovieApiController.cpp.o.d -o CMakeFiles/ServiceCPP_Executable.dir/src/controller/MovieApiController.cpp.o -c /home/diego/cineconecta_films/cineconecta_films/src/controller/MovieApiController.cpp
+
+CMakeFiles/ServiceCPP_Executable.dir/src/controller/MovieApiController.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ServiceCPP_Executable.dir/src/controller/MovieApiController.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/diego/cineconecta_films/cineconecta_films/src/controller/MovieApiController.cpp > CMakeFiles/ServiceCPP_Executable.dir/src/controller/MovieApiController.cpp.i
+
+CMakeFiles/ServiceCPP_Executable.dir/src/controller/MovieApiController.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ServiceCPP_Executable.dir/src/controller/MovieApiController.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/diego/cineconecta_films/cineconecta_films/src/controller/MovieApiController.cpp -o CMakeFiles/ServiceCPP_Executable.dir/src/controller/MovieApiController.cpp.s
 
 # Object files for target ServiceCPP_Executable
 ServiceCPP_Executable_OBJECTS = \
 "CMakeFiles/ServiceCPP_Executable.dir/src/main.cpp.o" \
 "CMakeFiles/ServiceCPP_Executable.dir/src/db.cpp.o" \
-"CMakeFiles/ServiceCPP_Executable.dir/src/controller/LogroController.cpp.o"
+"CMakeFiles/ServiceCPP_Executable.dir/src/controller/LogroController.cpp.o" \
+"CMakeFiles/ServiceCPP_Executable.dir/src/service/TmdbApiClient.cpp.o" \
+"CMakeFiles/ServiceCPP_Executable.dir/src/controller/MovieApiController.cpp.o"
 
 # External object files for target ServiceCPP_Executable
 ServiceCPP_Executable_EXTERNAL_OBJECTS =
@@ -123,9 +153,11 @@ ServiceCPP_Executable_EXTERNAL_OBJECTS =
 ServiceCPP_Executable: CMakeFiles/ServiceCPP_Executable.dir/src/main.cpp.o
 ServiceCPP_Executable: CMakeFiles/ServiceCPP_Executable.dir/src/db.cpp.o
 ServiceCPP_Executable: CMakeFiles/ServiceCPP_Executable.dir/src/controller/LogroController.cpp.o
+ServiceCPP_Executable: CMakeFiles/ServiceCPP_Executable.dir/src/service/TmdbApiClient.cpp.o
+ServiceCPP_Executable: CMakeFiles/ServiceCPP_Executable.dir/src/controller/MovieApiController.cpp.o
 ServiceCPP_Executable: CMakeFiles/ServiceCPP_Executable.dir/build.make
 ServiceCPP_Executable: CMakeFiles/ServiceCPP_Executable.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/karolv/CineConecta/ServiceCPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ServiceCPP_Executable"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/diego/cineconecta_films/cineconecta_films/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable ServiceCPP_Executable"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ServiceCPP_Executable.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -137,6 +169,6 @@ CMakeFiles/ServiceCPP_Executable.dir/clean:
 .PHONY : CMakeFiles/ServiceCPP_Executable.dir/clean
 
 CMakeFiles/ServiceCPP_Executable.dir/depend:
-	cd /home/karolv/CineConecta/ServiceCPP/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/karolv/CineConecta/ServiceCPP /home/karolv/CineConecta/ServiceCPP /home/karolv/CineConecta/ServiceCPP/build /home/karolv/CineConecta/ServiceCPP/build /home/karolv/CineConecta/ServiceCPP/build/CMakeFiles/ServiceCPP_Executable.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/diego/cineconecta_films/cineconecta_films/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/diego/cineconecta_films/cineconecta_films /home/diego/cineconecta_films/cineconecta_films /home/diego/cineconecta_films/cineconecta_films/build /home/diego/cineconecta_films/cineconecta_films/build /home/diego/cineconecta_films/cineconecta_films/build/CMakeFiles/ServiceCPP_Executable.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/ServiceCPP_Executable.dir/depend
 

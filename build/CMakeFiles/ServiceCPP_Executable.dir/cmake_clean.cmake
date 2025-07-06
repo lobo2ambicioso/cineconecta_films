@@ -1,10 +1,14 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ServiceCPP_Executable.dir/src/controller/LogroController.cpp.o"
   "CMakeFiles/ServiceCPP_Executable.dir/src/controller/LogroController.cpp.o.d"
+  "CMakeFiles/ServiceCPP_Executable.dir/src/controller/MovieApiController.cpp.o"
+  "CMakeFiles/ServiceCPP_Executable.dir/src/controller/MovieApiController.cpp.o.d"
   "CMakeFiles/ServiceCPP_Executable.dir/src/db.cpp.o"
   "CMakeFiles/ServiceCPP_Executable.dir/src/db.cpp.o.d"
   "CMakeFiles/ServiceCPP_Executable.dir/src/main.cpp.o"
   "CMakeFiles/ServiceCPP_Executable.dir/src/main.cpp.o.d"
+  "CMakeFiles/ServiceCPP_Executable.dir/src/service/TmdbApiClient.cpp.o"
+  "CMakeFiles/ServiceCPP_Executable.dir/src/service/TmdbApiClient.cpp.o.d"
   "ServiceCPP_Executable"
   "ServiceCPP_Executable.pdb"
 )
