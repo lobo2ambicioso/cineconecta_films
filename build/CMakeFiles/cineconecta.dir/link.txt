@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/cineconecta.dir/src/main.cpp.o CMakeFiles/cineconecta.dir/src/service/TmdbApiClient.cpp.o CMakeFiles/cineconecta.dir/src/service/MovieService.cpp.o CMakeFiles/cineconecta.dir/src/controller/MovieApiController.cpp.o -o cineconecta  -lpistache -lpqxx -lpq -lpthread -lssl -lcrypto 

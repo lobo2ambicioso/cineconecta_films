@@ -7,7 +7,7 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/home/karolv/CineConecta/ServiceCPP/CMakeLists.txt"
+  "/home/diego/cineconecta_films/cineconecta_films/CMakeLists.txt"
   "CMakeFiles/3.28.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.28.3/CMakeSystem.cmake"
   "/usr/share/cmake-3.28/Modules/CMakeCXXCompiler.cmake.in"
@@ -107,5 +107,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/ServiceCPP_Executable.dir/DependInfo.cmake"
+  "CMakeFiles/cineconecta.dir/DependInfo.cmake"
   )
