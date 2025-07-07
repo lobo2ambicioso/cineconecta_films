@@ -33,3 +33,4 @@ inline void to_json(nlohmann::json& j, const MovieResult& m) {
 }
 
 #endif // MOVIE_RESULT_H
+

@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DCPPHTTPLIB_OPENSSL_SUPPORT
 
-CXX_INCLUDES = -I/home/diego/cineconecta_films/cineconecta_films/src/include -I/home/diego/cineconecta_films/cineconecta_films/src -I/home/diego/cineconecta_films/cineconecta_films/src/models -I/home/diego/cineconecta_films/cineconecta_films/external/pistache/include -I/home/diego/cineconecta_films/cineconecta_films/external/json/include
+CXX_INCLUDES = -I/home/diego/cineconecta_films/cineconecta_films/src -I/home/diego/cineconecta_films/cineconecta_films/src/include -I/home/diego/cineconecta_films/cineconecta_films/src/models -I/home/diego/cineconecta_films/cineconecta_films/external/pistache/include -I/home/diego/cineconecta_films/cineconecta_films/external/json/include
 
 CXX_FLAGS = -std=gnu++17
 
