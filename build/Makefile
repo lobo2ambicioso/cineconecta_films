@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/karolv/CineConecta/ServiceCPP
+CMAKE_SOURCE_DIR = /home/karolv/cineconecta_films/cineconecta_films
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/karolv/CineConecta/ServiceCPP/build
+CMAKE_BINARY_DIR = /home/karolv/cineconecta_films/cineconecta_films/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/karolv/CineConecta/ServiceCPP/build/CMakeFiles /home/karolv/CineConecta/ServiceCPP/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/karolv/cineconecta_films/cineconecta_films/build/CMakeFiles /home/karolv/cineconecta_films/cineconecta_films/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/karolv/CineConecta/ServiceCPP/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/karolv/cineconecta_films/cineconecta_films/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,72 +117,48 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named ServiceCPP_Executable
+# Target rules for targets named cineconecta
 
 # Build rule for target.
-ServiceCPP_Executable: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ServiceCPP_Executable
-.PHONY : ServiceCPP_Executable
+cineconecta: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cineconecta
+.PHONY : cineconecta
 
 # fast build rule for target.
-ServiceCPP_Executable/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ServiceCPP_Executable.dir/build.make CMakeFiles/ServiceCPP_Executable.dir/build
-.PHONY : ServiceCPP_Executable/fast
+cineconecta/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cineconecta.dir/build.make CMakeFiles/cineconecta.dir/build
+.PHONY : cineconecta/fast
 
-src/controller/LogroController.o: src/controller/LogroController.cpp.o
-.PHONY : src/controller/LogroController.o
-
-# target to build an object file
-src/controller/LogroController.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ServiceCPP_Executable.dir/build.make CMakeFiles/ServiceCPP_Executable.dir/src/controller/LogroController.cpp.o
-.PHONY : src/controller/LogroController.cpp.o
-
-src/controller/LogroController.i: src/controller/LogroController.cpp.i
-.PHONY : src/controller/LogroController.i
-
-# target to preprocess a source file
-src/controller/LogroController.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ServiceCPP_Executable.dir/build.make CMakeFiles/ServiceCPP_Executable.dir/src/controller/LogroController.cpp.i
-.PHONY : src/controller/LogroController.cpp.i
-
-src/controller/LogroController.s: src/controller/LogroController.cpp.s
-.PHONY : src/controller/LogroController.s
-
-# target to generate assembly for a file
-src/controller/LogroController.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ServiceCPP_Executable.dir/build.make CMakeFiles/ServiceCPP_Executable.dir/src/controller/LogroController.cpp.s
-.PHONY : src/controller/LogroController.cpp.s
-
-src/db.o: src/db.cpp.o
-.PHONY : src/db.o
+src/controller/MovieApiController.o: src/controller/MovieApiController.cpp.o
+.PHONY : src/controller/MovieApiController.o
 
 # target to build an object file
-src/db.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ServiceCPP_Executable.dir/build.make CMakeFiles/ServiceCPP_Executable.dir/src/db.cpp.o
-.PHONY : src/db.cpp.o
+src/controller/MovieApiController.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cineconecta.dir/build.make CMakeFiles/cineconecta.dir/src/controller/MovieApiController.cpp.o
+.PHONY : src/controller/MovieApiController.cpp.o
 
-src/db.i: src/db.cpp.i
-.PHONY : src/db.i
+src/controller/MovieApiController.i: src/controller/MovieApiController.cpp.i
+.PHONY : src/controller/MovieApiController.i
 
 # target to preprocess a source file
-src/db.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ServiceCPP_Executable.dir/build.make CMakeFiles/ServiceCPP_Executable.dir/src/db.cpp.i
-.PHONY : src/db.cpp.i
+src/controller/MovieApiController.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cineconecta.dir/build.make CMakeFiles/cineconecta.dir/src/controller/MovieApiController.cpp.i
+.PHONY : src/controller/MovieApiController.cpp.i
 
-src/db.s: src/db.cpp.s
-.PHONY : src/db.s
+src/controller/MovieApiController.s: src/controller/MovieApiController.cpp.s
+.PHONY : src/controller/MovieApiController.s
 
 # target to generate assembly for a file
-src/db.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ServiceCPP_Executable.dir/build.make CMakeFiles/ServiceCPP_Executable.dir/src/db.cpp.s
-.PHONY : src/db.cpp.s
+src/controller/MovieApiController.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cineconecta.dir/build.make CMakeFiles/cineconecta.dir/src/controller/MovieApiController.cpp.s
+.PHONY : src/controller/MovieApiController.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ServiceCPP_Executable.dir/build.make CMakeFiles/ServiceCPP_Executable.dir/src/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cineconecta.dir/build.make CMakeFiles/cineconecta.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -190,7 +166,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ServiceCPP_Executable.dir/build.make CMakeFiles/ServiceCPP_Executable.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cineconecta.dir/build.make CMakeFiles/cineconecta.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -198,8 +174,56 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ServiceCPP_Executable.dir/build.make CMakeFiles/ServiceCPP_Executable.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cineconecta.dir/build.make CMakeFiles/cineconecta.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
+
+src/service/MovieService.o: src/service/MovieService.cpp.o
+.PHONY : src/service/MovieService.o
+
+# target to build an object file
+src/service/MovieService.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cineconecta.dir/build.make CMakeFiles/cineconecta.dir/src/service/MovieService.cpp.o
+.PHONY : src/service/MovieService.cpp.o
+
+src/service/MovieService.i: src/service/MovieService.cpp.i
+.PHONY : src/service/MovieService.i
+
+# target to preprocess a source file
+src/service/MovieService.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cineconecta.dir/build.make CMakeFiles/cineconecta.dir/src/service/MovieService.cpp.i
+.PHONY : src/service/MovieService.cpp.i
+
+src/service/MovieService.s: src/service/MovieService.cpp.s
+.PHONY : src/service/MovieService.s
+
+# target to generate assembly for a file
+src/service/MovieService.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cineconecta.dir/build.make CMakeFiles/cineconecta.dir/src/service/MovieService.cpp.s
+.PHONY : src/service/MovieService.cpp.s
+
+src/service/TmdbApiClient.o: src/service/TmdbApiClient.cpp.o
+.PHONY : src/service/TmdbApiClient.o
+
+# target to build an object file
+src/service/TmdbApiClient.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cineconecta.dir/build.make CMakeFiles/cineconecta.dir/src/service/TmdbApiClient.cpp.o
+.PHONY : src/service/TmdbApiClient.cpp.o
+
+src/service/TmdbApiClient.i: src/service/TmdbApiClient.cpp.i
+.PHONY : src/service/TmdbApiClient.i
+
+# target to preprocess a source file
+src/service/TmdbApiClient.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cineconecta.dir/build.make CMakeFiles/cineconecta.dir/src/service/TmdbApiClient.cpp.i
+.PHONY : src/service/TmdbApiClient.cpp.i
+
+src/service/TmdbApiClient.s: src/service/TmdbApiClient.cpp.s
+.PHONY : src/service/TmdbApiClient.s
+
+# target to generate assembly for a file
+src/service/TmdbApiClient.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cineconecta.dir/build.make CMakeFiles/cineconecta.dir/src/service/TmdbApiClient.cpp.s
+.PHONY : src/service/TmdbApiClient.cpp.s
 
 # Help Target
 help:
@@ -209,16 +233,19 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... ServiceCPP_Executable"
-	@echo "... src/controller/LogroController.o"
-	@echo "... src/controller/LogroController.i"
-	@echo "... src/controller/LogroController.s"
-	@echo "... src/db.o"
-	@echo "... src/db.i"
-	@echo "... src/db.s"
+	@echo "... cineconecta"
+	@echo "... src/controller/MovieApiController.o"
+	@echo "... src/controller/MovieApiController.i"
+	@echo "... src/controller/MovieApiController.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/service/MovieService.o"
+	@echo "... src/service/MovieService.i"
+	@echo "... src/service/MovieService.s"
+	@echo "... src/service/TmdbApiClient.o"
+	@echo "... src/service/TmdbApiClient.i"
+	@echo "... src/service/TmdbApiClient.s"
 .PHONY : help
 
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/karolv/CineConecta/ServiceCPP
+# Install script for directory: /home/karolv/cineconecta_films/cineconecta_films
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/karolv/CineConecta/ServiceCPP/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/karolv/cineconecta_films/cineconecta_films/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
