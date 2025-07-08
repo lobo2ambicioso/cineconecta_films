@@ -31,7 +31,7 @@ public:
      * @brief Carga la configuración de la API (base URL de imágenes, tamaños, etc.).
      * @return true si la configuración fue cargada correctamente, false en caso contrario.
      */
-    bool loadConfiguration();
+    virtual bool loadConfiguration();
 
     // -------------------------------
     // Métodos públicos para consumo de API
@@ -42,14 +42,14 @@ public:
      * @param query Título o parte del título.
      * @return JSON con resultados de búsqueda o nullopt si falla.
      */
-    std::optional<json> searchMovies(const std::string& query);
+    virtual std::optional<json> searchMovies(const std::string& query);
 
     /**
      * @brief Obtiene detalles completos de una película.
      * @param tmdbId ID de la película en TMDb.
      * @return JSON con los detalles o nullopt si falla.
      */
-    std::optional<json> getMovieDetails(long tmdbId);
+    virtual std::optional<json> getMovieDetails(long tmdbId);
 
     /**
      * @brief Obtiene las imágenes asociadas a una película.
@@ -63,21 +63,21 @@ public:
      * @param tmdbId ID de la película en TMDb.
      * @return JSON con créditos o nullopt si falla.
      */
-    std::optional<json> getMovieCredits(long tmdbId);
+    virtual std::optional<json> getMovieCredits(long tmdbId);
 
     /**
      * @brief Descubre películas filtradas por género.
      * @param genreId ID del género.
      * @return JSON con resultados o nullopt.
      */
-    std::optional<json> discoverByGenre(const std::string& genreId);
+    virtual std::optional<json> discoverByGenre(const std::string& genreId);
 
     /**
      * @brief Descubre películas por año de lanzamiento.
      * @param year Año numérico (ej. 2023).
      * @return JSON con resultados o nullopt.
      */
-    std::optional<json> discoverByYear(int year);
+    virtual std::optional<json> discoverByYear(int year);
 
     /**
      * @brief Construye una URL completa para acceder a una imagen.
@@ -85,7 +85,7 @@ public:
      * @param size Tamaño de la imagen (ej. "w342", "original").
      * @return URL completa para acceder a la imagen.
      */
-    std::string buildFullImageUrl(const std::string& relativePath, const std::string& size = "w342");
+    virtual std::string buildFullImageUrl(const std::string& relativePath, const std::string& size = "w342");
 
 private:
     // -------------------------------

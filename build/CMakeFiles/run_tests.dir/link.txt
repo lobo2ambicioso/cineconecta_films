@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/run_tests.dir/tests/MovieServiceTests.cpp.o CMakeFiles/run_tests.dir/src/service/MovieService.cpp.o CMakeFiles/run_tests.dir/src/service/TmdbApiClient.cpp.o -o run_tests  -lgtest -lgtest_main -lpthread -lssl -lcrypto 

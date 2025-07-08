@@ -1,3 +1,5 @@
 /home/diego/cineconecta_films/cineconecta_films/build/CMakeFiles/cineconecta.dir
+/home/diego/cineconecta_films/cineconecta_films/build/CMakeFiles/run_tests.dir
+/home/diego/cineconecta_films/cineconecta_films/build/CMakeFiles/test.dir
 /home/diego/cineconecta_films/cineconecta_films/build/CMakeFiles/edit_cache.dir
 /home/diego/cineconecta_films/cineconecta_films/build/CMakeFiles/rebuild_cache.dir

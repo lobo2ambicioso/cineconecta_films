@@ -65,6 +65,16 @@ CMAKE_BINARY_DIR = /home/diego/cineconecta_films/cineconecta_films/build
 #=============================================================================
 # Targets provided globally by CMake.
 
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running tests..."
+	/usr/bin/ctest --force-new-ctest-process $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+.PHONY : test/fast
+
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "No interactive CMake dialog available..."
@@ -129,6 +139,19 @@ cineconecta/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cineconecta.dir/build.make CMakeFiles/cineconecta.dir/build
 .PHONY : cineconecta/fast
 
+#=============================================================================
+# Target rules for targets named run_tests
+
+# Build rule for target.
+run_tests: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 run_tests
+.PHONY : run_tests
+
+# fast build rule for target.
+run_tests/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/build
+.PHONY : run_tests/fast
+
 src/controller/MovieApiController.o: src/controller/MovieApiController.cpp.o
 .PHONY : src/controller/MovieApiController.o
 
@@ -183,6 +206,7 @@ src/service/MovieService.o: src/service/MovieService.cpp.o
 # target to build an object file
 src/service/MovieService.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cineconecta.dir/build.make CMakeFiles/cineconecta.dir/src/service/MovieService.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/src/service/MovieService.cpp.o
 .PHONY : src/service/MovieService.cpp.o
 
 src/service/MovieService.i: src/service/MovieService.cpp.i
@@ -191,6 +215,7 @@ src/service/MovieService.i: src/service/MovieService.cpp.i
 # target to preprocess a source file
 src/service/MovieService.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cineconecta.dir/build.make CMakeFiles/cineconecta.dir/src/service/MovieService.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/src/service/MovieService.cpp.i
 .PHONY : src/service/MovieService.cpp.i
 
 src/service/MovieService.s: src/service/MovieService.cpp.s
@@ -199,6 +224,7 @@ src/service/MovieService.s: src/service/MovieService.cpp.s
 # target to generate assembly for a file
 src/service/MovieService.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cineconecta.dir/build.make CMakeFiles/cineconecta.dir/src/service/MovieService.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/src/service/MovieService.cpp.s
 .PHONY : src/service/MovieService.cpp.s
 
 src/service/TmdbApiClient.o: src/service/TmdbApiClient.cpp.o
@@ -207,6 +233,7 @@ src/service/TmdbApiClient.o: src/service/TmdbApiClient.cpp.o
 # target to build an object file
 src/service/TmdbApiClient.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cineconecta.dir/build.make CMakeFiles/cineconecta.dir/src/service/TmdbApiClient.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/src/service/TmdbApiClient.cpp.o
 .PHONY : src/service/TmdbApiClient.cpp.o
 
 src/service/TmdbApiClient.i: src/service/TmdbApiClient.cpp.i
@@ -215,6 +242,7 @@ src/service/TmdbApiClient.i: src/service/TmdbApiClient.cpp.i
 # target to preprocess a source file
 src/service/TmdbApiClient.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cineconecta.dir/build.make CMakeFiles/cineconecta.dir/src/service/TmdbApiClient.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/src/service/TmdbApiClient.cpp.i
 .PHONY : src/service/TmdbApiClient.cpp.i
 
 src/service/TmdbApiClient.s: src/service/TmdbApiClient.cpp.s
@@ -223,7 +251,32 @@ src/service/TmdbApiClient.s: src/service/TmdbApiClient.cpp.s
 # target to generate assembly for a file
 src/service/TmdbApiClient.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cineconecta.dir/build.make CMakeFiles/cineconecta.dir/src/service/TmdbApiClient.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/src/service/TmdbApiClient.cpp.s
 .PHONY : src/service/TmdbApiClient.cpp.s
+
+tests/MovieServiceTests.o: tests/MovieServiceTests.cpp.o
+.PHONY : tests/MovieServiceTests.o
+
+# target to build an object file
+tests/MovieServiceTests.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/tests/MovieServiceTests.cpp.o
+.PHONY : tests/MovieServiceTests.cpp.o
+
+tests/MovieServiceTests.i: tests/MovieServiceTests.cpp.i
+.PHONY : tests/MovieServiceTests.i
+
+# target to preprocess a source file
+tests/MovieServiceTests.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/tests/MovieServiceTests.cpp.i
+.PHONY : tests/MovieServiceTests.cpp.i
+
+tests/MovieServiceTests.s: tests/MovieServiceTests.cpp.s
+.PHONY : tests/MovieServiceTests.s
+
+# target to generate assembly for a file
+tests/MovieServiceTests.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/tests/MovieServiceTests.cpp.s
+.PHONY : tests/MovieServiceTests.cpp.s
 
 # Help Target
 help:
@@ -233,7 +286,9 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... test"
 	@echo "... cineconecta"
+	@echo "... run_tests"
 	@echo "... src/controller/MovieApiController.o"
 	@echo "... src/controller/MovieApiController.i"
 	@echo "... src/controller/MovieApiController.s"
@@ -246,6 +301,9 @@ help:
 	@echo "... src/service/TmdbApiClient.o"
 	@echo "... src/service/TmdbApiClient.i"
 	@echo "... src/service/TmdbApiClient.s"
+	@echo "... tests/MovieServiceTests.o"
+	@echo "... tests/MovieServiceTests.i"
+	@echo "... tests/MovieServiceTests.s"
 .PHONY : help
 
 
