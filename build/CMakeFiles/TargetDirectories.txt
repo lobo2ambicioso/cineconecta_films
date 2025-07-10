@@ -1,0 +1,3 @@
+/home/karolv/cineconecta_films/cineconecta_films/build/CMakeFiles/cineconecta.dir
+/home/karolv/cineconecta_films/cineconecta_films/build/CMakeFiles/edit_cache.dir
+/home/karolv/cineconecta_films/cineconecta_films/build/CMakeFiles/rebuild_cache.dir
